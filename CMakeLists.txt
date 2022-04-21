@@ -11,5 +11,8 @@ add_executable(untitled main.cpp
         Strategy/Strategy.cpp)
 
 add_executable(Strategy Strategy/Strategy.cpp)
-
 add_executable(Decorator Decorator/Decorator.cpp)
+add_executable(Proxy Proxy/Proxy.cpp)
+add_executable(Factory Factory/Factory.cpp)
+add_executable(Template Template/Template.cpp)
+add_executable(Facade Facade/Facade.cpp)
