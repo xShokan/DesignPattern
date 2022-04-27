@@ -17,11 +17,43 @@
 					<DistClean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="Builder">
+				<Option output="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Builder.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 Builder"/>
+					<CompileFile command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Builder/fast">
+				<Option output="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Builder.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 Builder/fast"/>
 					<CompileFile command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -321,6 +353,16 @@
 					<DistClean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/shokanxu/CLionProjects/untitled/cmake-build-debug"/>
 				<Option type="4"/>
@@ -332,6 +374,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/shokanxu/CLionProjects/untitled/Builder/Builder.cpp">
+			<Option target="Builder"/>
+			<Option target="Decorator"/>
+		</Unit>
 		<Unit filename="C:/Users/shokanxu/CLionProjects/untitled/Decorator/Decorator.cpp">
 			<Option target="Decorator"/>
 		</Unit>
